@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS 1</title>
+</head>
+<style type="text/css">
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: azure;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: cadetblue;
+        color: darkblue; 
+    }
+
+    table{
+        border: 1px solid black;
+        margin: 50px auto;
+    }
+
+    tr:hover{
+        background: greenyellow;
+    }
+
+    th{
+        padding: 2px 6px;
+        border: 1px solid black;
+        background: black;
+        color: white;
+    }
+
+    td{
+        padding: 2px 6px;
+        border: 1px solid black;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Belajar CSS 1</h1>
+    <font color="red"><marquee behavior="" direction="right">Belajar css</marquee></font>
+    <h1>Tabel Nama daerah</h1>
+    <hr width="60%" size="5" noshade="" color="black">
+    <table style="margin-top: 20px;" border="1">
+        <thead>
+            <tr>
+                <th>NO</th>
+                <th>Daerah</th>
+                <th>Kecamatan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sukarami</td>
+                <td rowspan="5">IDEM</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Suka Tangkis</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Suka Tani</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Suka Sepi</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Suka Suka</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* Reset default margin & padding  */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background-color: #302f2c;
+    font-family: 'Franklin Gothic Medium';
+}
+
+ul{
+    list-style-type: none;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover{
+    background-color: grey;
+}
+
+.txt-center{
+    text-align: center;
+}
+ 
+.bg-primary{
+    background-color: #64ed78;
+    /* Border : top-left,top-right, bottom-left, bottom-right */
+    border-radius: 0px 0px 15px 15px;
+}
+
+.pb-1{
+    padding-bottom :  1px;
+}
+
+.mb-5{
+    margin-bottom: 20px;
+}
+
+
+/* Style link navigasi */

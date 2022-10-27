@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="">
+        <h2>Objek Batu (Menggunakan OL)</h2>
+        <ol>
+            <li>Batu Kali</li>
+            <li>Batu Kerikil</li>
+            <li>Holy Rock</li>
+        </ol>
+
+        <h2>Batu Spesial (Menggunakan OL + Type)</h2>
+        <ol type="A">
+            <li>Batu Cobek</li>
+            <li>Batu Gio</li>
+            <li>Batu Ginjal</li>
+        </ol>
+        
+        <h2>Fasilitas Sumber batu (Menggunakan UL)</h2>
+        <ul>
+            <li>Kali</li>
+            <li>Jalan Berlubang</li>
+            <li>Unknown</li>
+        </ul>
+
+        <h2>Asal Batu</h2>
+        <ul type="square">
+            <li>Pasar</li>
+            <li>Tambang</li>
+            <li>Rumah sakit</li>
+        </ul>
+    </div>
+
+    <div class="">
+        <table border="1" width="50%">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Walikota</th>
+                    <th>Pap</th>
+                    <th>Periode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Dwayne Jhonson</td>
+                    <td><img src="img/img.jpeg" width="100px"></td>
+                    <td>
+                        <ul>
+                            <li>2121 sampai 2222</li>
+                            <li>2342 sampai 4783</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Zhong Xina</td>
+                    <td><img src="img/download.jfif" width="100px"></td>
+                    <td>
+                        <ul>
+                            <li>4111 sampai 4111 lewat 2 menit</li>
+                            <li>Berhenti Nyaleg</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Ilon Ma</td>
+                    <td><img src="img/ilon.jpg" width="100px"></td>
+                    <td>
+                        <ul>
+                            <li>Belum pernah nyaleg</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="">
+        <h2>Formulir Pendaftaran Walikota Palembang</h2>
+        <form action="daftar.html" method="post">
+            <div>
+                Nama lengkap <br>
+                <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Nama Lengkap">
+            </div>
+            <div>
+                Tempat Lahir <br>
+                <input type="text" name="tempat_lahir" id="tempat_lahir" placeholder="Tempat Lahir">
+            </div>
+            <div class="">
+                Tanggal Lahir <br>
+                <input type="date" name="tgl_lahir" id="tgl_lahir" placeholder="dd/mm/yy">
+            </div>
+            <div class="">
+                Jenis Kelamin <br>
+                <input type="radio" name="jk" id="jkl" value="L"> Laki-Laki
+                <input type="radio" name="jk" id="jkp" value="P"> Perempuan
+                <input type="radio" name="jk" id="jks" value="S" checked> Stainless Steel
+            </div>
+            <div class="">
+                Alamat <br>
+                <textarea name="alamat" id="alamat" cols="30" rows="3"></textarea>
+            </div>
+            <div class="">
+                Partai Pengusung <br>
+                <select name="partai" id="partai">
+                    <option value="AB">Autobot</option>
+                    <option value="SC">Decepticon</option>
+                </select>
+            </div>
+            <button type="submit">Daftar</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
